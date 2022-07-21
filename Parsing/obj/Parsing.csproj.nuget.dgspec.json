@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aidar\\source\\repos\\Parsing\\Parsing\\Parsing.csproj": {}
+    "C:\\Users\\Сергей\\Documents\\Parsing\\Parsing\\Parsing.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aidar\\source\\repos\\Parsing\\Parsing\\Parsing.csproj": {
+    "C:\\Users\\Сергей\\Documents\\Parsing\\Parsing\\Parsing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aidar\\source\\repos\\Parsing\\Parsing\\Parsing.csproj",
+        "projectUniqueName": "C:\\Users\\Сергей\\Documents\\Parsing\\Parsing\\Parsing.csproj",
         "projectName": "Parsing",
-        "projectPath": "C:\\Users\\aidar\\source\\repos\\Parsing\\Parsing\\Parsing.csproj",
-        "packagesPath": "C:\\Users\\aidar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aidar\\source\\repos\\Parsing\\Parsing\\obj\\",
+        "projectPath": "C:\\Users\\Сергей\\Documents\\Parsing\\Parsing\\Parsing.csproj",
+        "packagesPath": "C:\\Users\\Сергей\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Сергей\\Documents\\Parsing\\Parsing\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\aidar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Сергей\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,13 +40,23 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "EntityFramework": {
-              "target": "Package",
-              "version": "[6.4.4, )"
-            },
             "HtmlAgilityPack": {
               "target": "Package",
               "version": "[1.11.43, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.5, )"
             }
           },
           "imports": [
